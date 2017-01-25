@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button4: UIButton!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var designation: UILabel!
     
     
     override func viewDidLoad() {
@@ -31,12 +34,33 @@ class ViewController: UIViewController {
         self.transition.transformType    = .TRANSLATEPULL
         self.transition.edge = Edge.BOTTOM
         self.transition.overlayColor = UIColor.gray
+        name.textColor = UIColor.white
+        designation.textColor = UIColor.white
+        
+        let b1 = IonIcons.image(withIcon: ion_social_facebook_outline, iconColor: UIColor.gray, iconSize: 50, imageSize: CGSize.init(width: 50, height: 50))
+        self.button1.imageView?.image = b1
+        
+        
+        name.alpha = 0
+        designation.alpha = 0
         
         let colorsArray:[UIColor] = [UIColor.black,UIColor.gray,UIColor.black]
         let color = UIColor(gradientStyle: UIGradientStyle.leftToRight, withFrame: CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height), andColors: colorsArray)
         self.view.backgroundColor = color!
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        name.center.y = self.view.frame.size.height/2-100
+        designation.center.y = self.view.frame.size.height/2-20
+
+        UIView.animate(withDuration: 3) {
+            self.name.alpha = 1;
+            self.name.center.y += 100
+            self.designation.alpha = 1;
+            self.designation.center.y += 50
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
