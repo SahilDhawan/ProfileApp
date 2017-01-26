@@ -15,6 +15,7 @@ class ViewController_2: UIViewController {
     @IBOutlet weak var home: UIButton!
     @IBOutlet weak var journey: UIButton!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     let transition = ElasticTransition()
     
@@ -36,11 +37,13 @@ class ViewController_2: UIViewController {
         
         let a1 = IonIcons.image(withIcon: ion_arrow_up_a, iconColor: UIColor.gray, iconSize: 30, imageSize: CGSize.init(width: 30, height: 30))
         self.home.setImage(a1, for: .normal)
+        
         let a2 = IonIcons.image(withIcon: ion_arrow_down_a, iconColor: UIColor.gray, iconSize: 30, imageSize: CGSize.init(width: 30, height: 30))
         self.journey.setImage(a2, for: .normal)
 
          textView.isEditable = false
         // Do any additional setup after loading the view.
+        scrollView.contentSize = CGSize.init(width: self.view.frame.width, height: self.view.frame.height + 100)
     }
 
     override func didReceiveMemoryWarning() {
