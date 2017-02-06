@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5A6AA4726525B13E892975B6 /* Pods_Sahil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B702EA68CC1AD096A5784A /* Pods_Sahil.framework */; };
+		BA4678C11E4926B6003BECB4 /* Coursera-1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4678BD1E4926B6003BECB4 /* Coursera-1.png */; };
+		BA4678C21E4926B6003BECB4 /* Coursera-2.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4678BE1E4926B6003BECB4 /* Coursera-2.png */; };
+		BA4678C31E4926B6003BECB4 /* Coursera-3.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4678BF1E4926B6003BECB4 /* Coursera-3.png */; };
+		BA4678C41E4926B6003BECB4 /* Coursera-4.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4678C01E4926B6003BECB4 /* Coursera-4.png */; };
+		BA4678CA1E492985003BECB4 /* iOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4678C91E492985003BECB4 /* iOSViewController.swift */; };
 		BA9C9FBD1E3919A500836DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9C9FBC1E3919A500836DE9 /* AppDelegate.swift */; };
 		BA9C9FBF1E3919A500836DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9C9FBE1E3919A500836DE9 /* ViewController.swift */; };
 		BA9C9FC21E3919A500836DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9C9FC01E3919A500836DE9 /* Main.storyboard */; };
@@ -21,6 +26,11 @@
 /* Begin PBXFileReference section */
 		793B14AEA877191F83F9368F /* Pods-Sahil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sahil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sahil/Pods-Sahil.debug.xcconfig"; sourceTree = "<group>"; };
 		909B635086B0F20EA7070C16 /* Pods-Sahil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sahil.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sahil/Pods-Sahil.release.xcconfig"; sourceTree = "<group>"; };
+		BA4678BD1E4926B6003BECB4 /* Coursera-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coursera-1.png"; path = "../../../../Desktop/Coursera-1.png"; sourceTree = "<group>"; };
+		BA4678BE1E4926B6003BECB4 /* Coursera-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coursera-2.png"; path = "../../../../Desktop/Coursera-2.png"; sourceTree = "<group>"; };
+		BA4678BF1E4926B6003BECB4 /* Coursera-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coursera-3.png"; path = "../../../../Desktop/Coursera-3.png"; sourceTree = "<group>"; };
+		BA4678C01E4926B6003BECB4 /* Coursera-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coursera-4.png"; path = "../../../../Desktop/Coursera-4.png"; sourceTree = "<group>"; };
+		BA4678C91E492985003BECB4 /* iOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSViewController.swift; sourceTree = "<group>"; };
 		BA9C9FB91E3919A500836DE9 /* Sahil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sahil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9C9FBC1E3919A500836DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9C9FBE1E3919A500836DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +86,14 @@
 		BA9C9FBB1E3919A500836DE9 /* Sahil */ = {
 			isa = PBXGroup;
 			children = (
+				BA4678BD1E4926B6003BECB4 /* Coursera-1.png */,
+				BA4678BE1E4926B6003BECB4 /* Coursera-2.png */,
+				BA4678BF1E4926B6003BECB4 /* Coursera-3.png */,
+				BA4678C01E4926B6003BECB4 /* Coursera-4.png */,
 				BA9C9FBC1E3919A500836DE9 /* AppDelegate.swift */,
 				BA9C9FBE1E3919A500836DE9 /* ViewController.swift */,
 				BA9C9FD21E39318D00836DE9 /* ViewController-2.swift */,
+				BA4678C91E492985003BECB4 /* iOSViewController.swift */,
 				BA9C9FC01E3919A500836DE9 /* Main.storyboard */,
 				BA9C9FC31E3919A500836DE9 /* Assets.xcassets */,
 				BA9C9FC51E3919A500836DE9 /* LaunchScreen.storyboard */,
@@ -163,6 +178,10 @@
 				BA9C9FD11E391F5300836DE9 /* leh_sd_crop.jpg in Resources */,
 				BA9C9FCF1E391F4B00836DE9 /* sd copy.png in Resources */,
 				BA9C9FC71E3919A500836DE9 /* LaunchScreen.storyboard in Resources */,
+				BA4678C21E4926B6003BECB4 /* Coursera-2.png in Resources */,
+				BA4678C11E4926B6003BECB4 /* Coursera-1.png in Resources */,
+				BA4678C31E4926B6003BECB4 /* Coursera-3.png in Resources */,
+				BA4678C41E4926B6003BECB4 /* Coursera-4.png in Resources */,
 				BA9C9FC41E3919A500836DE9 /* Assets.xcassets in Resources */,
 				BA9C9FC21E3919A500836DE9 /* Main.storyboard in Resources */,
 			);
@@ -223,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4678CA1E492985003BECB4 /* iOSViewController.swift in Sources */,
 				BA9C9FBF1E3919A500836DE9 /* ViewController.swift in Sources */,
 				BA9C9FBD1E3919A500836DE9 /* AppDelegate.swift in Sources */,
 				BA9C9FD31E39318D00836DE9 /* ViewController-2.swift in Sources */,

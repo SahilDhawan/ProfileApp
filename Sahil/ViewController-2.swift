@@ -34,6 +34,8 @@ class ViewController_2: UIViewController {
         self.imageView.layer.cornerRadius = 75
         self.imageView.layer.borderWidth = 5
         self.imageView.layer.borderColor = UIColor.gray.cgColor
+        self.imageView.layer.shadowColor = UIColor.white.cgColor
+        self.imageView.layer.shadowRadius = 2
         
         let a1 = IonIcons.image(withIcon: ion_arrow_up_a, iconColor: UIColor.gray, iconSize: 30, imageSize: CGSize.init(width: 30, height: 30))
         self.home.setImage(a1, for: .normal)
@@ -43,7 +45,7 @@ class ViewController_2: UIViewController {
 
          textView.isEditable = false
         // Do any additional setup after loading the view.
-        scrollView.contentSize = CGSize.init(width: self.view.frame.width, height: self.view.frame.height + 100)
+        scrollView.contentSize = CGSize.init(width: self.view.frame.width, height: self.view.frame.height)
     }
 
     override func didReceiveMemoryWarning() {

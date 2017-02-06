@@ -29,13 +29,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         self.transition.sticky = true
         self.transition.showShadow = true
-        //self.transition.panThreshold     = 0.4
-        //self.transition.transformType    = .TRANSLATEPULL
         self.transition.edge = Edge.BOTTOM
-        //self.transition.overlayColor = UIColor.gray
+        self.transition.overlayColor = UIColor.gray
         name.textColor = UIColor.white
         designation.textColor = UIColor.white
         
@@ -65,10 +62,9 @@ class ViewController: UIViewController {
 
         designation.alpha = 0
         
-        let colorsArray:[UIColor] = [UIColor.black,UIColor.gray,UIColor.black]
+        let colorsArray:[UIColor] = [UIColor.black,UIColor.darkGray,UIColor.black]
         let color = UIColor(gradientStyle: UIGradientStyle.leftToRight, withFrame: CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height), andColors: colorsArray)
         self.view.backgroundColor = color!
-//        self.launchView.backgroundColor = color!
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -94,6 +90,7 @@ class ViewController: UIViewController {
             self.about.alpha = 1
         }
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
